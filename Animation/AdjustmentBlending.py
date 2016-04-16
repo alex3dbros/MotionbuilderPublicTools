@@ -3,7 +3,7 @@
 if False: from pyfbsdk_gen_doc import *
 
 from pyfbsdk import *
-import PosesScripts.EffectorList as EffectorList
+import Animation.EffectorList as EffectorList
 reload(EffectorList)
 
 effectors = EffectorList.CharacterEffectors
