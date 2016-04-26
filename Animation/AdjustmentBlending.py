@@ -19,7 +19,7 @@ def create_animation(pNode, frame, value):
 		xfcurve.KeyAdd(FBTime(0,0,0,frame), value)
 	if pNode.Nodes:
 		for lNode in pNode.Nodes:
-			CreateAnimation( lNode )
+			create_animation( lNode )
 
 # Function fo summing the keys from the base layer
 def sum_keys(node):
